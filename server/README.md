@@ -1,9 +1,11 @@
 # YuIndex 后端
 
-> 欢迎加入 [鱼皮的编程知识星球](https://yupi.icu/) ，获取完整的项目讲解，帮助你更好地学编程 ⭐️
-
 ## 技术栈
-
+启动 本地redis
+1.首先打开cmd 命令行 进入redis目录
+2.输入命令redis-server redis.windows.conf 如下图所示则启动成功
+3.在打开cmd 切换到redis目录
+4.输入redis-cli.exe -h 127.0.0.1 -p 6379
 主要技术：
 
 - Node.js
@@ -52,35 +54,23 @@ dbConfig: {
   port: 3306,
 },
 ```
-
 2）安装依赖：
-
 ```
 npm i 
 ```
-
 3）启动服务：
-
 以本地开发环境启动：
-
 ```
 npm run start:dev
 ```
-
 以线上环境启动：
-
 ```
 npm run start
 ```
-
 ## 部署发布
-
 支持前台进程运行或容器方式部署
-
 ### 容器部署
-
 以微信云托管为例，也可以使用其他容器平台或原生 Docker 部署。
-
 #### 1. 编写 Dockerfile
 
 ```dockerfile

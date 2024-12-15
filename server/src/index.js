@@ -1,6 +1,5 @@
 const { CloudBaseRunServer } = require("./server");
 const routes = require("./routes");
-
 // 创建云托管 Server 实例
 const server = new CloudBaseRunServer();
 
@@ -10,4 +9,4 @@ for (const route of routes) {
 }
 
 // 监听端口
-server.listen(7345);
+server.listen(7346);

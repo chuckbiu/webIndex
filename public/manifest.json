@@ -3,7 +3,7 @@
   "name": "🐟 Index",
   "version": "0.0.0",
   "description": "极客范儿的浏览器主页",
-  "author": "liyupi <592789970@qq.com>",
+  "author": "liyupi",
   "chrome_url_overrides" : {
     "newtab": "index.html"
   },

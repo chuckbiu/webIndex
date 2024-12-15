@@ -1,6 +1,5 @@
 /**
  * 默认配置
- * @author yupi
  */
 module.exports = {
   redisConfig: {
@@ -19,7 +18,7 @@ module.exports = {
   },
   // 百度翻译配置，自行申请免费版即可（https://fanyi-api.baidu.com/）
   baiduFanYiConfig: {
-    appid: "",
-    key: "",
+    appid: "20241215002228806",
+    key: "5ElXEXO9FnL0r0dvfxho",
   },
 };
